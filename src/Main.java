@@ -23,7 +23,7 @@ public class Main {
         jouirSchool.score= (float)(99.5);
         jouirSchool.serialNumber.add("93900300939") ;
         jouirSchool.serialNumber.add("93393993939") ;
-        jouirSchool.serialNumber.add("933993939xx") ;
+        jouirSchool.serialNumber.add("933993939x1") ;
 
         jouirSchool.say();
 
