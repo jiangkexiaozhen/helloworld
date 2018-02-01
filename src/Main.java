@@ -6,7 +6,6 @@ import java.util.Scanner;   // 导入 java.util 包下的 Scanner 类
 import javax.swing.*;       // 导入 javax.swing 包下的所有类，* 表示所有类
 
 public class Main {
-
     public static void main(String[] args) {
         System.out.println("Hello World!");
         class student{
@@ -14,12 +13,10 @@ public class Main {
             int age;
             float score;
             ArrayList<String> serialNumber = new ArrayList<String>();
-
             void say() {
                 System.out.println("学生名字=["+ name + "],年龄是=[" + age + "]，成绩是=[" + score + "],电话号码=[" + serialNumber + "]\r");
             }
         };
-
         student jouirSchool = new student();
         jouirSchool.name = "Paul Lee";
         jouirSchool.age  = 10;
@@ -37,16 +34,9 @@ public class Main {
                 System.out.println("感谢主人领养了我");
             }
             // 普通方法，必须有返回值
-            void bark(){
-                System.out.println("汪汪，不要过来");
-            }
-            void hungry(){
-                System.out.println("主人，我饿了");
-            }
-            //public void main(String arg[]){
-                // 创建对象时传递的参数要与构造方法参数列表对应
-            //}
-        }
+            void bark(){ System.out.println("汪汪，不要过来");}
+            void hungry(){System.out.println("主人，我饿了");}
+         }
         Dog myDog = new Dog("花花", 3);
         myDog.bark();
         myDog.hungry();
